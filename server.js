@@ -12,7 +12,7 @@ app.use(express.static("public"));
 
 
 const PORT = process.env.PORT || 3000;
-const JWT_SECRET = process.env.JWT_SECRET ||SuperAravind123 ;
+const JWT_SECRET = process.env.JWT_SECRET || "SuperAravind123" ;
 
 // ✅ MongoDB Connection
 
